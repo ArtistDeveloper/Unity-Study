@@ -1,6 +1,6 @@
 # 각 Scene마다 볼 수 있는 예제코드
 
-## ScaleChange
+## 1. ScaleChange
 1. Update와 deltaTime을 통해 큐브의 scale조정
 
 **추가예정**
