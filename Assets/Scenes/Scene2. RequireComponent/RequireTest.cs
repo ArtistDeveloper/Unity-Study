@@ -5,16 +5,16 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class RequireTest : MonoBehaviour
 {
-    Rigidbody rigidbody;
+    Rigidbody rgbody;
 
     void Start()
     {
-        rigidbody = GetComponent<Rigidbody>();
+        rgbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        rigidbody.AddForce(Vector3.up);
+        rgbody.AddForce(Vector3.up);
     }
 }
