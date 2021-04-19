@@ -4,11 +4,11 @@ Version : Unity 2020.2.6fl
 
 각 Scene은 Assets -> Scenes 폴더에 들어가면 확인할 수 있습니다.
 
-## 1. ScaleChange
+### 1. ScaleChange
 1. Update와 deltaTime을 통해 큐브의 scale조정
 
 **추가예정**
 1. 코루틴을 사용한 scale조정 http://theeye.pe.kr/archives/2725
 2. Lerp()를 사용한 scale조정
 
-## 2. RequireComponent 사용
+### 2. RequireComponent 사용
