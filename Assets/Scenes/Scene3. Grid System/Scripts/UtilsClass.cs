@@ -18,9 +18,10 @@ public class UtilsClass
     public static TextMesh CreateWorldText(Transform parent, string text, Vector3 localPosition, int fontSize, Color color
     , TextAnchor textAnchor, TextAlignment textAlignment, int sortingOrder)
     {
-        GameObject gameObject = new GameObject("World_Text", typeof(TextMesh));
-        Transform transform = gameObject.transform;
-        transform.SetParent(parent, false);
+        GameObject gameObject = new GameObject("World_Text", typeof(TextMesh)); // TextMesh컴포넌트를 가진 게임오브젝트 생성
+        Transform transform = gameObject.transform; // 이 문장을 통해 gameObject.transform에 대한 레퍼런스가 transform 변수에 저장됨. (즉, 게임오브젝트 위치와 동기화)
+        // Debug.Log("GameObject Transform : " + gameObject.transform.position); // position값은 자동으로 0, 0, 0으로 초기화 됨.
+        transform.SetParent(parent, false); //parent값이 null로 들어오면, 부모 게임오브젝트가 없음.
         transform.localPosition = localPosition;
         TextMesh textMesh = gameObject.GetComponent<TextMesh>();
         textMesh.anchor = textAnchor;
