@@ -1,3 +1,5 @@
+Version : Unity 2020.2.6fl
+
 # 각 Scene마다 볼 수 있는 예제코드
 
 각 Scene은 Assets -> Scenes 폴더에 들어가면 확인할 수 있습니다.
