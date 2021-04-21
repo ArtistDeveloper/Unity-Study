@@ -23,6 +23,7 @@ public class Grid
         {
             for (int x = 0; x < gridArray.GetLength(1); x++) 
             {
+                
                 // Debug.Log(x + ", " + y); // grid배열의 값 확인
 
                 UtilsClass.CreateWorldText(gridArray[z, x].ToString(), null, GetWorldPosition(z, x) + new Vector3(cellSize, 0, cellSize) * 0.5f, 20, Color.white, TextAnchor.MiddleCenter);
@@ -40,7 +41,7 @@ public class Grid
         return new Vector3(x, 0, z) * cellSize;
     }
 
-    public void SetValue(int x, int y, int SetValue) {
-        
+    public void SetValue(int z, int x, int SetValue) {
+        //x, y값이 유효한지 확인 (invalid한 값이면 잠재적 에러 요소임.)
     }
 } 
