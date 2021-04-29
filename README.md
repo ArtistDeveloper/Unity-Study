@@ -13,3 +13,6 @@ Version : Unity 2020.2.6fl
 2. Lerp()를 사용한 scale조정
 
 ### 2. RequireComponent 사용
+https://artiper.tistory.com/105?category=908373
+
+### 3. GridSystem
