@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Grid
 {
@@ -8,40 +9,50 @@ public class Grid
     private int height;
     private float cellSize;
     private int[,] gridArray;
+    private TextMesh[,] debugTextArray;
 
-    //width와 hegith를 받을 수 있는 생성자를 만듬.
-    public Grid(int height, int width, float cellSize) 
+    public Grid(int width, int height, float cellSize) 
     {
-        this.height = height; //4
-        this.width = width; //2
+        this.width = width; //4
+        this.height = height; //2
         this.cellSize = cellSize; //셀 사이즈를 통해 각 인덱스를 땅위에 올리기 위한 WorldPosition을 계산할 수 있다.
 
-        gridArray = new int[height, width];
-        // Debug.Log(width + " " + height); // 제대로 Grid가 생성되는지 테스트
+        gridArray = new int[width, height];
+        debugTextArray = new TextMesh[width, height];
 
-        for (int z = 0; z < gridArray.GetLength(0); z++)
+        for (int x = 0; x < gridArray.GetLength(0); x++) 
         {
-            for (int x = 0; x < gridArray.GetLength(1); x++) 
+            for (int z = 0; z < gridArray.GetLength(1); z++) 
             {
-                
                 // Debug.Log(x + ", " + y); // grid배열의 값 확인
-
-                UtilsClass.CreateWorldText(gridArray[z, x].ToString(), null, GetWorldPosition(z, x) + new Vector3(cellSize, 0, cellSize) * 0.5f, 20, Color.white, TextAnchor.MiddleCenter);
-                Debug.DrawLine(GetWorldPosition(z, x), GetWorldPosition(z+1, x), Color.white, 100f);
-                Debug.DrawLine(GetWorldPosition(z, x), GetWorldPosition(z, x+1), Color.white, 100f);
+                debugTextArray[x, z] = UtilsClass.CreateWorldText(gridArray[x, z].ToString(), null, GetWorldPosition(x, z) + new Vector3(cellSize, 0, cellSize) * 0.5f, 20, Color.white, TextAnchor.MiddleCenter);
+                Debug.DrawLine(GetWorldPosition(x, z), GetWorldPosition(x, z+1), Color.white, 100f);
+                Debug.DrawLine(GetWorldPosition(x, z), GetWorldPosition(x+1, z), Color.white, 100f);
             }
-            Debug.DrawLine(GetWorldPosition(height, 0), GetWorldPosition(height, width), Color.white, 100f);
-            Debug.DrawLine(GetWorldPosition(0, width), GetWorldPosition(height, width), Color.white, 100f);
+            Debug.DrawLine(GetWorldPosition(0, height), GetWorldPosition(width, height), Color.white, 100f);
+            Debug.DrawLine(GetWorldPosition(width, 0), GetWorldPosition(width, height), Color.white, 100f);
         }
+        SetValue(2, 1, 56); //혹시 NullReference가 난다면, TextMesh값이 debugTextArray에 들어가지 않아서 그런 것.
     }
 
     //WorldPosition으로 변환시켜주는 작업.
-    private Vector3 GetWorldPosition(int z, int x)
+    private Vector3 GetWorldPosition(int x, int z)
     {
         return new Vector3(x, 0, z) * cellSize;
     }
 
-    public void SetValue(int z, int x, int SetValue) {
-        //x, y값이 유효한지 확인 (invalid한 값이면 잠재적 에러 요소임.)
+    public void SetValue(int x, int z, int value)
+    {
+        //x, y값이 유효한지 확인 (invalid한 값이면 잠재적 에러 요소임.) 여기서는 x, z값
+        if ((x >= 0) && (z >= 0) && (x < width) && (z < height))
+        {
+            gridArray[x, z] = value; //1행 2열
+            Debug.Log("x : " + x);
+            Debug.Log("z : " + z);
+            Debug.Log(gridArray[x, z]);
+            Debug.Log(gridArray.GetLength(0));
+            Debug.Log(gridArray.GetLength(1));
+            debugTextArray[x, z].text = gridArray[x, z].ToString();
+        }
     }
 } 
