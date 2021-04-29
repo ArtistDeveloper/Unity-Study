@@ -19,7 +19,7 @@ public class UtilsClass
     , TextAnchor textAnchor, TextAlignment textAlignment, int sortingOrder)
     {
         // Debug.Log("GameObject Transform : " + gameObject.transform.position); // position값은 자동으로 0, 0, 0으로 초기화 됨.
-        
+
         GameObject gameObject = new GameObject("World_Text", typeof(TextMesh)); // TextMesh컴포넌트를 가진 게임오브젝트 생성
         Transform transform = gameObject.transform; // 이 문장을 통해 gameObject.transform에 대한 레퍼런스가 transform 변수에 저장됨. (즉, 게임오브젝트 위치와 동기화)
         transform.SetParent(parent, false); //parent값이 null로 들어오면, 부모 게임오브젝트가 없음.
@@ -35,5 +35,28 @@ public class UtilsClass
         textMesh.GetComponent<MeshRenderer>().sortingOrder = sortingOrder;
         return textMesh;
     }
-    
+
+    //마우스 포지션을 얻어온다.
+    // public static Vector3 GetMouseWorldPosition()
+    // {
+    //     Vector3 vec = GetMouseWorldPositionWithZ(Input.mousePosition, Camera.main);
+    //     vec.z = 0f;
+    //     return vec;
+    // }
+
+    // public static Vector3 GetMouseWorldPositionWithZ()
+    // {
+    //     return GetMouseWorldPositionWithZ(Input.mousePosition, Camera.main);
+    // }
+
+    // public static Vector3 GetMouseWorldPositionWithZ(Camera worldCamera)
+    // {
+    //     return GetMouseWorldPositionWithZ(Input.mousePosition, worldCamera);
+    // }
+
+    // public static Vector3 GetMouseWorldPositionWithZ(Vector3 screenPosition, Camera worldCamera)
+    // {
+    //     Vector3 worldPosition = worldCamera.ScreenToWorldPoint(screenPosition);
+    //     return worldPosition;
+    // }
 }

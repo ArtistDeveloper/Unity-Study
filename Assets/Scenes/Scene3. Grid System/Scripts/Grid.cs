@@ -35,10 +35,17 @@ public class Grid
         SetValue(2, 1, 56); //혹시 NullReference가 난다면, TextMesh값이 debugTextArray에 들어가지 않아서 그런 것.
     }
 
-    //WorldPosition으로 변환시켜주는 작업.
+    //WorldPosition으로 변환시켜주는 작업. 
     private Vector3 GetWorldPosition(int x, int z)
     {
         return new Vector3(x, 0, z) * cellSize;
+    }
+
+    //좌표에 따른 Grid x,y값 반환. Point를 담은 struct를 반환해도 되겠지만 여기서는 out을 사용해봄.
+    private void GetXZ(Vector3 worldPosition, out int x, out int z)
+    {
+        x = Mathf.FloorToInt(worldPosition.x / cellSize); //FlootToTint : 버림함수
+        z = Mathf.FloorToInt(worldPosition.x / cellSize);
     }
 
     public void SetValue(int x, int z, int value)
@@ -47,12 +54,15 @@ public class Grid
         if ((x >= 0) && (z >= 0) && (x < width) && (z < height))
         {
             gridArray[x, z] = value; //1행 2열
-            Debug.Log("x : " + x);
-            Debug.Log("z : " + z);
-            Debug.Log(gridArray[x, z]);
-            Debug.Log(gridArray.GetLength(0));
-            Debug.Log(gridArray.GetLength(1));
             debugTextArray[x, z].text = gridArray[x, z].ToString();
         }
+    }
+
+    //x, y가 아닌 worldPositon을 받는 SetValue함수
+    public void SetValue(Vector3 worldPosition, int value) 
+    {
+        int x, z;
+        GetXZ(worldPosition, out x, out z);
+        SetValue(x, z, value);
     }
 } 
