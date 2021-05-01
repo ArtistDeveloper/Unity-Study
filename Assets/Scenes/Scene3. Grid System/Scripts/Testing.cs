@@ -11,23 +11,26 @@ public class Testing : MonoBehaviour
 
     private void Start()
     {
-        grid = new Grid(4, 2, 10f);
+        grid = new Grid(4, 2, 10f, new Vector3(20, 0 , 0));
+        new Grid(2, 5, 5f, new Vector3(0, 0, -20));
+        new Grid(10, 10, 20f, new Vector3(-100, 0, 20));
     }
 
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            // grid.SetValue(UtilsClass.GetMouseWorldPositionWithZ(), 56);
-            // testVecPosition = UtilsClass.GetMouseWorldPositionWithZ();
-            // Debug.Log(testVecPosition);
-            // worldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            // Debug.Log(worldPosition);
-
             //3D프로젝트 마우스의 포지션을 가져오기.
             testTouchPosition = MouseTouch3D.GetWolrdMousePosition3D();
-            Debug.Log(testTouchPosition);
+            grid.SetValue(testTouchPosition, 56);
+        }
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            testTouchPosition = MouseTouch3D.GetWolrdMousePosition3D();
+            Debug.Log(grid.GetValue(testTouchPosition));
         }
     }
 }
+
 

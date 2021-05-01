@@ -9,13 +9,9 @@ public class MouseTouch3D
         RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(ray, out hit, Mathf.Infinity))
-        {
             return hit.point;    
-        }
         else
-        {
             return Vector3.zero;
-        }
     }
 }
 
