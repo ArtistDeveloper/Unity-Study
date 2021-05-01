@@ -16,3 +16,6 @@ Version : Unity 2020.2.6fl
 https://artiper.tistory.com/105?category=908373
 
 ### 3. GridSystem
+
+### 4. Nested Class
+https://artiper.tistory.com/125
