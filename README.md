@@ -12,10 +12,16 @@ Version : Unity 2020.2.6fl
 1. 코루틴을 사용한 scale조정 http://theeye.pe.kr/archives/2725
 2. Lerp()를 사용한 scale조정
 
+
 ### 2. RequireComponent 사용
 https://artiper.tistory.com/105?category=908373
 
+
 ### 3. GridSystem
+
 
 ### 4. Nested Class
 https://artiper.tistory.com/125
+
+
+### 5. Delegate And Events
