@@ -27,3 +27,5 @@ https://artiper.tistory.com/125
 
 ### 5. Delegate And Events
 1. 내부클래스, 외부 클래스에서 Delegate 사용법
+
+### 6. Generics
