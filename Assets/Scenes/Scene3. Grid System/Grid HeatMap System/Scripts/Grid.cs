@@ -38,6 +38,13 @@ namespace GridHeatMap
             set { height = value; }
         }
 
+        //HERE
+        public float CellSize
+        {
+            get { return cellSize; }
+            set { cellSize = value; }
+        }
+
 
         public Grid(int width, int height, float cellSize, Vector3 originPosition)
         {
@@ -71,7 +78,7 @@ namespace GridHeatMap
         }
 
         //Gird셀의 위치들을 WorldPosition으로 변환시켜주는 작업. 
-        private Vector3 GetWorldPosition(int x, int z)
+        public Vector3 GetWorldPosition(int x, int z)
         {
             return new Vector3(x, 0, z) * cellSize + originPosition;
         }

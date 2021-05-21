@@ -12,7 +12,7 @@ namespace GridHeatMap
 
         private void Start()
         {
-            grid = new Grid(20, 10, 10f, Vector3.zero);
+            grid = new Grid(10, 5, 10f, Vector3.zero);   
             heatMapVisual.SetGrid(grid);
         }
 
