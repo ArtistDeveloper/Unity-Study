@@ -29,3 +29,5 @@ https://artiper.tistory.com/125
 1. 내부클래스, 외부 클래스에서 Delegate 사용법
 
 ### 6. Generics
+
+![five-state-model](https://user-images.githubusercontent.com/40491724/122676600-b81f3380-d219-11eb-873f-94f3dc92cef6.png)
