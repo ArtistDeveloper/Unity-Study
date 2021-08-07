@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace Scene7FMP
 {
+    // enum사용하기
+    // 1. 명시적 캐스팅을 사용하여 배열 인덱스안에 enum을 사용하기
     public class UseFactoryMethod : MonoBehaviour
     {
         MonsterGenerator[] monsterGenerators = null;
-        // MonsterGenerator slimeGenerator = null;
-        // 아니면 enum으로 배열 0, 1에 대신 넣을 수도 있지 않을까?
 
         void Start()
         {
             monsterGenerators = new MonsterGenerator[2];
-            monsterGenerators[0] = new GoblinGenerator();
-            monsterGenerators[1] = new SlimeGenerator();
+            monsterGenerators[(int)MonsterType.Goblin] = new GoblinGenerator();
+            monsterGenerators[(int)MonsterType.Slime] = new SlimeGenerator();
         }
 
         public void MakeGoblin()
         {
-            monsterGenerators[0].CreateMonsters();
+            monsterGenerators[(int)MonsterType.Goblin].CreateMonsters();
 
-            List<Monster> monsters = monsterGenerators[0].GetMonsters();
+            List<Monster> monsters = monsterGenerators[(int)MonsterType.Goblin].GetMonsters();
 
             foreach (Monster monster in monsters)
             {
@@ -31,9 +31,9 @@ namespace Scene7FMP
 
         public void MakeSlime()
         {
-            monsterGenerators[1].CreateMonsters();
+            monsterGenerators[(int)MonsterType.Slime].CreateMonsters();
 
-            List<Monster> monsters = monsterGenerators[1].GetMonsters();
+            List<Monster> monsters = monsterGenerators[(int)MonsterType.Slime].GetMonsters();
 
             foreach (Monster monster in monsters)
             {
