@@ -32,3 +32,5 @@ https://artiper.tistory.com/125
 
 ### 7. 디자인 패턴 공부
 - Factory Method Pattern
+
+### 8. Terrain 생성하기
