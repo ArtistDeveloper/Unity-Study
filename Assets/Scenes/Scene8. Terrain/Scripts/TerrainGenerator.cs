@@ -10,7 +10,6 @@ public class TerrainGenerator : MonoBehaviour
     public int height = 256;
     public float scale = 20f;
 
-    // 매번 랜덤한 지형을 원하면
     public float offsetX = 100f;
     public float offsetY = 100f;
 
@@ -19,6 +18,7 @@ public class TerrainGenerator : MonoBehaviour
 
     private void Start()
     {
+        // 매번 랜덤한 지형을 원하면
         offsetX = Random.Range(0f, 9999);
         offsetY = Random.Range(0f, 9999);
         terrain = GetComponent<Terrain>();
