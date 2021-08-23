@@ -6,12 +6,11 @@ namespace Scene7FMP
 {
     public class UseFactoryMethod : MonoBehaviour
     {
-        MonsterGenerator[] monsterGenerators = null;
-        private GameObject findGameObject;
+        MonsterGenerator[] monsterGenerators = new MonsterGenerator[2];
 
         void Start()
         {
-            findGameObject = GameObject.Find("EntireGeneratorManager");
+            GameObject findGameObject = GameObject.Find("EntireGeneratorManager");
             monsterGenerators[(int)MonsterType.Goblin] = findGameObject.GetComponent<GoblinGenerator>();
             monsterGenerators[(int)MonsterType.Slime] = findGameObject.GetComponent<SlimeGenerator>();
         }

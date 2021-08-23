@@ -8,10 +8,10 @@ namespace Scene7FMP
 
         public override void CreateMonsters()
         {
-            for (int i = 0; i < 1; i++)
-            {
-                monsters.Add(new Slime());
-            }
+            // for (int i = 0; i < 1; i++)
+            // {
+            //     monsters.Add(new Slime());
+            // }
         }
     }
 }
