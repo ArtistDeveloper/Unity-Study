@@ -6,13 +6,19 @@ namespace Scene7FMP
 {
     public class UseFactoryMethod : MonoBehaviour
     {
+        // MonsterGenerator[] monsterGenerators = new MonsterGenerator[2];
         MonsterGenerator[] monsterGenerators = new MonsterGenerator[2];
 
-        void Start()
+        private void Start()
         {
             GameObject findGameObject = GameObject.Find("EntireGeneratorManager");
             monsterGenerators[(int)MonsterType.Goblin] = findGameObject.GetComponent<GoblinGenerator>();
             monsterGenerators[(int)MonsterType.Slime] = findGameObject.GetComponent<SlimeGenerator>();
+        }
+
+        private void Update()
+        {
+            IndexCheck();
         }
 
 
@@ -38,6 +44,19 @@ namespace Scene7FMP
             // {
             //     monster.Attack();
             // }
+        }
+
+        public void IndexCheck()
+        {
+            if (Input.GetKeyDown("q"))
+            {
+                //for (int i = 0; i < monsterGenerators[0].monsters.Count; i++)
+                //{
+                //    Debug.Log(monsterGenerators[0].monsters[i]);
+                //}
+                Debug.Log(monsterGenerators[0].monsters.Count);
+                //Debug.Log(monsterGenerators[0].GetMonsters());
+            }
         }
     }
 }

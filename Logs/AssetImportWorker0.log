@@ -15,11 +15,11 @@ C:/Users/Junsu/Desktop/Coding/unity/Unity-Study
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-3999
+3977
 Successfully changed project path to: C:/Users/Junsu/Desktop/Coding/unity/Unity-Study
 C:/Users/Junsu/Desktop/Coding/unity/Unity-Study
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 87.02 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 62.98 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,22 +35,156 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004367 seconds.
+Registered in 0.003573 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 89.54 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 65.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in 11.481 seconds
+- Completed reload, in  3.885 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004683 seconds.
+Registered in 0.006640 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.269 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1435 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.6 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 1865.
+Total: 2.147400 ms (FindLiveObjects: 0.176100 ms CreateObjectMapping: 0.060300 ms MarkObjects: 1.829200 ms  DeleteObjects: 0.080600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Scene9. Object MoveAndRotation
+  artifactKey: Guid(33a0c44ae02b3954693429f97a5816ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene9. Object MoveAndRotation using Guid(33a0c44ae02b3954693429f97a5816ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34938d9afb795f80bdcd31a3266d2da') in 0.013275 seconds
+  Import took 0.017181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 271.665649 seconds.
+  path: Assets/Scenes/Scene9. Object MoveAndRotation/Scene9 Object Move And Rotation.unity
+  artifactKey: Guid(f620aa44be8c0974a94c843c04cc1022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene9. Object MoveAndRotation/Scene9 Object Move And Rotation.unity using Guid(f620aa44be8c0974a94c843c04cc1022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53548ed610bfed1e87f96797ca20a454') in 0.032506 seconds
+  Import took 0.036761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.921111 seconds.
+  path: Assets/Scenes/Scene9. Object MoveAndRotation/Scripts
+  artifactKey: Guid(788351e695532004e86507fd9b29e413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene9. Object MoveAndRotation/Scripts using Guid(788351e695532004e86507fd9b29e413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541539266f6585446121b79d67be083d') in 0.012951 seconds
+  Import took 0.021549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.360821 seconds.
+  path: Assets/Scenes/Scene9. Object MoveAndRotation/Scripts/Move.cs
+  artifactKey: Guid(856200f111fa0b3428561aa75c0ea7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene9. Object MoveAndRotation/Scripts/Move.cs using Guid(856200f111fa0b3428561aa75c0ea7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6090ff7ab1dbafe9985cc7cbbf84dbe') in 0.324412 seconds
+  Import took 0.329395 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013525 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.520 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.4 MB.
+System memory in use after: 65.5 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1868.
+Total: 2.017600 ms (FindLiveObjects: 0.164000 ms CreateObjectMapping: 0.053000 ms MarkObjects: 1.776900 ms  DeleteObjects: 0.022300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005892 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.420 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1870.
+Total: 2.062600 ms (FindLiveObjects: 0.197500 ms CreateObjectMapping: 0.063400 ms MarkObjects: 1.764300 ms  DeleteObjects: 0.035600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.766679 seconds.
+  path: Assets/Scenes/Scene9. Object MoveAndRotation/Scripts/Move.cs
+  artifactKey: Guid(856200f111fa0b3428561aa75c0ea7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene9. Object MoveAndRotation/Scripts/Move.cs using Guid(856200f111fa0b3428561aa75c0ea7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f839a43d985230caa1eeef2f9632de2a') in 0.006711 seconds
+  Import took 0.009958 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004018 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1872.
+Total: 1.981300 ms (FindLiveObjects: 0.153600 ms CreateObjectMapping: 0.054600 ms MarkObjects: 1.750100 ms  DeleteObjects: 0.021100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011139 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
@@ -59,1148 +193,52 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.997 seconds
+- Completed reload, in  1.370 seconds
 Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1435 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.6 MB.
-System memory in use after: 65.7 MB.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.6 MB.
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 1865.
-Total: 7.199600 ms (FindLiveObjects: 0.167100 ms CreateObjectMapping: 0.052700 ms MarkObjects: 6.784700 ms  DeleteObjects: 0.193300 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1874.
+Total: 2.271900 ms (FindLiveObjects: 0.173700 ms CreateObjectMapping: 0.057800 ms MarkObjects: 2.011900 ms  DeleteObjects: 0.027000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a35e075605022a7c20f02761d592568') in 0.155336 seconds
-  Import took 0.162139 seconds .
+  Time since last request: 583.520705 seconds.
+  path: Assets/Scenes/Scene9. Object MoveAndRotation/Scripts/Move.cs
+  artifactKey: Guid(856200f111fa0b3428561aa75c0ea7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene9. Object MoveAndRotation/Scripts/Move.cs using Guid(856200f111fa0b3428561aa75c0ea7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26403ab845da8fffd946d7a455e64b39') in 0.009472 seconds
+  Import took 0.014195 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.018158 seconds.
+Registered in 0.007550 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.460 seconds
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.123 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 65.5 MB.
 System memory in use after: 65.6 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1867.
-Total: 3.942800 ms (FindLiveObjects: 0.282000 ms CreateObjectMapping: 0.072800 ms MarkObjects: 3.558700 ms  DeleteObjects: 0.026800 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1876.
+Total: 2.265700 ms (FindLiveObjects: 0.154600 ms CreateObjectMapping: 0.052500 ms MarkObjects: 2.031000 ms  DeleteObjects: 0.026200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004894 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.427 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.5 MB.
-System memory in use after: 65.6 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1869.
-Total: 4.952600 ms (FindLiveObjects: 0.498700 ms CreateObjectMapping: 0.059500 ms MarkObjects: 4.281400 ms  DeleteObjects: 0.105000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005280 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.584 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.5 MB.
-System memory in use after: 65.6 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1871.
-Total: 17.889500 ms (FindLiveObjects: 0.204700 ms CreateObjectMapping: 0.623100 ms MarkObjects: 17.003900 ms  DeleteObjects: 0.054100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005999 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.696 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.5 MB.
-System memory in use after: 65.6 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1873.
-Total: 1.975100 ms (FindLiveObjects: 0.213900 ms CreateObjectMapping: 0.068100 ms MarkObjects: 1.667100 ms  DeleteObjects: 0.023800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1251.410114 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002844 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:07.4651299Z'
-  Import took 0.006375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096991 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001170 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:07.4651299Z'
-  Import took 0.008254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.133210 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000550 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:07.4651299Z'
-  Import took 0.006631 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.030310 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002389 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:07.4651299Z'
-  Import took 0.010525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.176038 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000549 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:07.4651299Z'
-  Import took 0.004619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.121076 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012822 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:07.4651299Z'
-  Import took 0.019349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.134467 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000579 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:07.4651299Z'
-  Import took 0.013188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.127882 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000501 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.044790 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000635 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.006363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.160933 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000614 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.006854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.141447 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000472 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.004199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049194 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006259 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.010139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.132813 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000454 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.005554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.037854 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001321 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.022104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.132287 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000819 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.004830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031819 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000451 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.032422 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000556 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.034995 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001843 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.007188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.130844 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000539 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.004634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.036358 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000682 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.040524 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000880 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.004508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.092976 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000949 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.004791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.112308 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001032 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.007714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.036319 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001909 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.005909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033597 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000939 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.008293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.132604 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000492 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.008445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.148296 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001607 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.015106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.134572 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000566 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.008458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.134821 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003753 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.012938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.146444 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005374 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.010398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.130749 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000571 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.007066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.132520 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000775 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.009616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.141905 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000737 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.006617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.032495 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000420 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.029298 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000423 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.032881 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000448 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.002904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.030173 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000555 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.004580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.131572 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009284 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.016100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.149293 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000660 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.018552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.136773 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000632 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.004831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035235 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000576 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.005537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.144438 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005040 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.016189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.137766 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001115 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.016501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.118916 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000451 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.005022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.030316 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000632 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.004885 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031097 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000659 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028282 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000472 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028202 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000555 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.006720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.139943 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000708 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.009540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.124341 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000516 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.011882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.167078 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.029628 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.043873 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.066654 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000569 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.005379 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.125519 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000740 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.004777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.032217 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000804 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.007562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.131267 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000439 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035463 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000774 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.004578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.029195 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000414 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031314 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000953 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.004129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028252 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000550 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.004142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.029199 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000449 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.004261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033312 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001727 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.009642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.126193 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000739 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.004783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.034283 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000548 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.030090 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000402 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026296 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000491 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.004962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.030045 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000424 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.032134 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000429 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.005314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026714 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000595 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.005019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.037692 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000954 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.154837 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002073 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.008107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.125301 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000698 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.014282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.130209 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000638 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.046881 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001900 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.010868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.178348 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004983 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.010212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.182475 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004946 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.058153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.103863 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000444 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.005023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.128553 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006047 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.042666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.100771 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006015 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.014143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.144389 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003187 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.024980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.132450 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001025 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.007188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.132978 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000457 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.039641 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000446 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.008516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.136211 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001209 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.009349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.130825 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000511 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.034496 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000459 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.004371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.030408 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000725 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.007170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.138864 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000689 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.007613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033909 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000992 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.007783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.132437 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000491 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.054443 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000883 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.005463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.131986 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000929 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.005441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.048884 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001807 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.008623 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.133020 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010682 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.016446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.127947 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000637 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.004509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.034826 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000473 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.007279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.126017 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000436 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.005270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027793 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000452 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.005618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.029932 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000457 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.008868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.134950 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000598 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031833 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000413 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031521 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000551 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.002975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.029671 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000449 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028677 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000409 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.003444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035647 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000881 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.007592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.136034 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001190 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.020684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.186235 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007101 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.016844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.101049 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001330 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.008523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.040635 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000607 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.011216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.218216 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000513 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.007817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.145886 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003538 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.007384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.137691 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001122 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.009848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.119020 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001281 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.010883 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.145498 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000864 seconds
-  ERROR: Build asset version error: assets/scenes/scene7. patternpractice/factory method pattern/scripts/usepattern/usefactorymethod.cs in SourceAssetDB has modification time of '2021-08-23T15:59:00.7754294Z' while content on disk has modification time of '2021-08-23T15:59:13.5688884Z'
-  Import took 0.009283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.234836 seconds.
-  path: Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs
-  artifactKey: Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene7. PatternPractice/Factory Method Pattern/Scripts/UsePattern/UseFactoryMethod.cs using Guid(b3979466550120947bfd8f1fd3150227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f471b82ac2c20254aad4ed37ddb9c5') in 0.030920 seconds
-  Import took 0.038789 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014130 seconds.
+Registered in 0.011939 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
@@ -1209,37 +247,821 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.158 seconds
+- Completed reload, in  1.303 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 65.5 MB.
 System memory in use after: 65.6 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1875.
-Total: 2.601400 ms (FindLiveObjects: 0.184500 ms CreateObjectMapping: 0.058700 ms MarkObjects: 2.325000 ms  DeleteObjects: 0.031400 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1878.
+Total: 2.520500 ms (FindLiveObjects: 0.167500 ms CreateObjectMapping: 0.054400 ms MarkObjects: 2.270300 ms  DeleteObjects: 0.025900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006350 seconds.
+Registered in 0.006044 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.243 seconds
+- Completed reload, in  1.360 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1880.
+Total: 2.188100 ms (FindLiveObjects: 0.347900 ms CreateObjectMapping: 0.067000 ms MarkObjects: 1.745800 ms  DeleteObjects: 0.026200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004217 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.632 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1882.
+Total: 1.715500 ms (FindLiveObjects: 0.160700 ms CreateObjectMapping: 0.051100 ms MarkObjects: 1.482300 ms  DeleteObjects: 0.020200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004793 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.349 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1884.
+Total: 1.886200 ms (FindLiveObjects: 0.225600 ms CreateObjectMapping: 0.057200 ms MarkObjects: 1.555500 ms  DeleteObjects: 0.046500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005045 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.264 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1886.
+Total: 2.219400 ms (FindLiveObjects: 0.195000 ms CreateObjectMapping: 0.064800 ms MarkObjects: 1.933500 ms  DeleteObjects: 0.024400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006093 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.458 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1888.
+Total: 29.992400 ms (FindLiveObjects: 0.355500 ms CreateObjectMapping: 0.244600 ms MarkObjects: 28.780900 ms  DeleteObjects: 0.609200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005073 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.051 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1890.
+Total: 3.028800 ms (FindLiveObjects: 0.202900 ms CreateObjectMapping: 0.088000 ms MarkObjects: 2.672400 ms  DeleteObjects: 0.062900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005689 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.268 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 65.5 MB.
 System memory in use after: 65.7 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1877.
-Total: 2.136200 ms (FindLiveObjects: 0.160400 ms CreateObjectMapping: 0.055900 ms MarkObjects: 1.884300 ms  DeleteObjects: 0.034500 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1892.
+Total: 2.248900 ms (FindLiveObjects: 0.173100 ms CreateObjectMapping: 0.059900 ms MarkObjects: 1.982800 ms  DeleteObjects: 0.031200 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004377 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.514 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1894.
+Total: 2.922600 ms (FindLiveObjects: 0.188400 ms CreateObjectMapping: 0.062400 ms MarkObjects: 2.645700 ms  DeleteObjects: 0.024500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004565 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.160 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1896.
+Total: 2.170700 ms (FindLiveObjects: 0.170900 ms CreateObjectMapping: 0.059000 ms MarkObjects: 1.916000 ms  DeleteObjects: 0.023100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005007 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.715 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1898.
+Total: 1.830100 ms (FindLiveObjects: 0.170700 ms CreateObjectMapping: 0.053200 ms MarkObjects: 1.584000 ms  DeleteObjects: 0.021000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006014 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.317 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1900.
+Total: 2.982500 ms (FindLiveObjects: 0.537600 ms CreateObjectMapping: 0.143500 ms MarkObjects: 2.277000 ms  DeleteObjects: 0.022500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009285 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.219 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1902.
+Total: 2.689600 ms (FindLiveObjects: 0.183900 ms CreateObjectMapping: 0.060800 ms MarkObjects: 2.419400 ms  DeleteObjects: 0.023700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004319 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.315 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1904.
+Total: 3.129100 ms (FindLiveObjects: 0.538500 ms CreateObjectMapping: 0.137500 ms MarkObjects: 2.425500 ms  DeleteObjects: 0.025300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004859 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.287 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1906.
+Total: 2.130000 ms (FindLiveObjects: 0.169100 ms CreateObjectMapping: 0.060300 ms MarkObjects: 1.853100 ms  DeleteObjects: 0.020000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006612 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.413 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1908.
+Total: 3.645700 ms (FindLiveObjects: 0.172500 ms CreateObjectMapping: 0.096300 ms MarkObjects: 3.351100 ms  DeleteObjects: 0.023700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006077 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.335 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1910.
+Total: 5.467000 ms (FindLiveObjects: 0.397200 ms CreateObjectMapping: 0.064800 ms MarkObjects: 4.975300 ms  DeleteObjects: 0.026900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004054 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.101 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1912.
+Total: 2.330700 ms (FindLiveObjects: 0.257800 ms CreateObjectMapping: 0.067400 ms MarkObjects: 1.982200 ms  DeleteObjects: 0.022300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004561 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.391 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1914.
+Total: 2.037600 ms (FindLiveObjects: 0.179500 ms CreateObjectMapping: 0.055100 ms MarkObjects: 1.778900 ms  DeleteObjects: 0.022300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007463 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.454 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1916.
+Total: 2.782800 ms (FindLiveObjects: 0.175000 ms CreateObjectMapping: 0.056800 ms MarkObjects: 2.518400 ms  DeleteObjects: 0.030500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015527 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.239 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1918.
+Total: 2.316200 ms (FindLiveObjects: 0.167200 ms CreateObjectMapping: 0.056600 ms MarkObjects: 2.037800 ms  DeleteObjects: 0.053400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004241 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.175 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1920.
+Total: 3.014100 ms (FindLiveObjects: 0.222700 ms CreateObjectMapping: 0.066300 ms MarkObjects: 2.697500 ms  DeleteObjects: 0.026500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007586 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.516 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1922.
+Total: 2.334200 ms (FindLiveObjects: 0.178300 ms CreateObjectMapping: 0.053300 ms MarkObjects: 2.073700 ms  DeleteObjects: 0.027400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004554 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.349 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1924.
+Total: 1.971800 ms (FindLiveObjects: 0.163400 ms CreateObjectMapping: 0.053100 ms MarkObjects: 1.731500 ms  DeleteObjects: 0.022500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007226 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.471 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1926.
+Total: 4.103200 ms (FindLiveObjects: 0.350000 ms CreateObjectMapping: 0.163400 ms MarkObjects: 3.499100 ms  DeleteObjects: 0.087600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004283 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.783 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.7 MB.
+System memory in use after: 65.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1928.
+Total: 2.309000 ms (FindLiveObjects: 0.165800 ms CreateObjectMapping: 0.054800 ms MarkObjects: 1.946500 ms  DeleteObjects: 0.140100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4329.065656 seconds.
+  path: Assets/Scenes/Scene9. Object MoveAndRotation/Scripts/ForwardTest.cs
+  artifactKey: Guid(a1bf9fbc4e67d3b49af41507d903c10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene9. Object MoveAndRotation/Scripts/ForwardTest.cs using Guid(a1bf9fbc4e67d3b49af41507d903c10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e2c848d3d6be338355a7c6e7398142') in 0.034828 seconds
+  Import took 0.136452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.503108 seconds.
+  path: Assets/Scenes/Scene9. Object MoveAndRotation/Scripts/Move.cs
+  artifactKey: Guid(856200f111fa0b3428561aa75c0ea7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene9. Object MoveAndRotation/Scripts/Move.cs using Guid(856200f111fa0b3428561aa75c0ea7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f30bbc8b9cce2553c0a5f9200d22e1') in 0.091702 seconds
+  Import took 0.101896 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004151 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.330 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.7 MB.
+System memory in use after: 65.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1931.
+Total: 2.255400 ms (FindLiveObjects: 0.168900 ms CreateObjectMapping: 0.048100 ms MarkObjects: 2.007200 ms  DeleteObjects: 0.029300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004211 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.270 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.7 MB.
+System memory in use after: 65.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1933.
+Total: 2.099400 ms (FindLiveObjects: 0.208000 ms CreateObjectMapping: 0.056300 ms MarkObjects: 1.785100 ms  DeleteObjects: 0.047700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 334.049328 seconds.
+  path: Assets/Scenes/Scene9. Object MoveAndRotation/Scripts/ForwardTest.cs
+  artifactKey: Guid(a1bf9fbc4e67d3b49af41507d903c10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene9. Object MoveAndRotation/Scripts/ForwardTest.cs using Guid(a1bf9fbc4e67d3b49af41507d903c10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026cb4008deed45a50046c14c83a113f') in 0.008324 seconds
+  Import took 0.011723 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004608 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.552 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.7 MB.
+System memory in use after: 65.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1935.
+Total: 2.840000 ms (FindLiveObjects: 0.312200 ms CreateObjectMapping: 0.064700 ms MarkObjects: 2.393100 ms  DeleteObjects: 0.068100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004124 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.242 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.7 MB.
+System memory in use after: 65.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1937.
+Total: 1.895800 ms (FindLiveObjects: 0.162600 ms CreateObjectMapping: 0.053100 ms MarkObjects: 1.658200 ms  DeleteObjects: 0.020700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005308 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.950 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.7 MB.
+System memory in use after: 65.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1939.
+Total: 1.987700 ms (FindLiveObjects: 0.160900 ms CreateObjectMapping: 0.050300 ms MarkObjects: 1.751600 ms  DeleteObjects: 0.022900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016330 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.972 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.7 MB.
+System memory in use after: 65.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1941.
+Total: 2.188200 ms (FindLiveObjects: 0.168500 ms CreateObjectMapping: 0.052800 ms MarkObjects: 1.913200 ms  DeleteObjects: 0.051900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011966 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.274 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.7 MB.
+System memory in use after: 65.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1943.
+Total: 1.934800 ms (FindLiveObjects: 0.180100 ms CreateObjectMapping: 0.065000 ms MarkObjects: 1.665900 ms  DeleteObjects: 0.021400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004271 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.465 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.7 MB.
+System memory in use after: 65.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1945.
+Total: 2.236900 ms (FindLiveObjects: 0.307800 ms CreateObjectMapping: 0.062900 ms MarkObjects: 1.838400 ms  DeleteObjects: 0.025700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004605 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.218 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.7 MB.
+System memory in use after: 65.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1947.
+Total: 2.558800 ms (FindLiveObjects: 0.201100 ms CreateObjectMapping: 0.059800 ms MarkObjects: 2.268700 ms  DeleteObjects: 0.027600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
