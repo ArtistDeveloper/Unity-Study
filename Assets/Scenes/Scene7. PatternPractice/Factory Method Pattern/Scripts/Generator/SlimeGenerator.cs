@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 namespace Scene7FMP
 {
@@ -8,10 +9,16 @@ namespace Scene7FMP
 
         public override void CreateMonsters()
         {
-            // for (int i = 0; i < 1; i++)
-            // {
-            //     monsters.Add(new Slime());
-            // }
+            if (monsters == null)
+            {
+                Debug.Log("Slime Monster 리스트가 비어있습니다.");
+                monsters = new List<Monster>();
+            }
+
+            Vector3 randomPosition = new Vector3(Random.Range(0f, 10f), 2f, Random.Range(0f, 10f));
+            GameObject hi = Instantiate(SlimePrefab, randomPosition, Quaternion.identity);
+
+            monsters.Add(new Goblin());
         }
     }
 }

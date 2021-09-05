@@ -18,7 +18,10 @@ namespace Scene7FMP
 
         private void Update()
         {
-            IndexCheck();
+            // if (Input.GetKey("q"))
+            // {
+            //     IndexCheck();
+            // }
         }
 
 
@@ -26,12 +29,8 @@ namespace Scene7FMP
         {
             monsterGenerators[(int)MonsterType.Goblin].CreateMonsters();
 
-            List<Monster> monsters = monsterGenerators[(int)MonsterType.Goblin].GetMonsters();
+            //List<Monster> monsters = monsterGenerators[(int)MonsterType.Goblin].GetMonsters();
 
-            // foreach (Monster monster in monsters)
-            // {
-            //     // monster.Attack();
-            // }
         }
 
         public void MakeSlime()
@@ -39,24 +38,11 @@ namespace Scene7FMP
             monsterGenerators[(int)MonsterType.Slime].CreateMonsters();
 
             List<Monster> monsters = monsterGenerators[(int)MonsterType.Slime].GetMonsters();
-
-            // foreach (Monster monster in monsters)
-            // {
-            //     monster.Attack();
-            // }
         }
 
         public void IndexCheck()
         {
-            if (Input.GetKeyDown("q"))
-            {
-                //for (int i = 0; i < monsterGenerators[0].monsters.Count; i++)
-                //{
-                //    Debug.Log(monsterGenerators[0].monsters[i]);
-                //}
-                Debug.Log(monsterGenerators[0].monsters.Count);
-                //Debug.Log(monsterGenerators[0].GetMonsters());
-            }
+            Debug.Log(monsterGenerators[(int)MonsterType.Goblin].monsters.Count);
         }
     }
 }
