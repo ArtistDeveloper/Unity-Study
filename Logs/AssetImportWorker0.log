@@ -262,3 +262,584 @@ Received Import Request.
 Start importing Assets/Scenes/Scene10. UGUI practice/Scenes/Rect Transform Practice.unity using Guid(b80b62fc76a5015489d60fb674a11a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45546757eefd605ae23dd9929bd6c7e4') in 0.021147 seconds
   Import took 0.028354 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 169825.124649 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b442e7ff28f5fdafbc846d5c7d44c52d') in 0.093672 seconds
+  Import took 0.129056 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005000 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.509 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1432 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1874.
+Total: 2.291600 ms (FindLiveObjects: 0.168800 ms CreateObjectMapping: 0.077200 ms MarkObjects: 2.017700 ms  DeleteObjects: 0.026500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004149 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.575 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1432 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1876.
+Total: 3.604100 ms (FindLiveObjects: 0.294900 ms CreateObjectMapping: 0.137300 ms MarkObjects: 3.117000 ms  DeleteObjects: 0.050900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 323.085390 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001675 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.004747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.130511 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000612 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.003338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.130395 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000528 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.003917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129251 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000598 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.003515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.147866 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000422 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.004366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132621 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000488 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.003952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.131993 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000498 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.003750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.136826 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000569 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.004218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129473 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000643 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.003655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.137450 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000480 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.002825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129048 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000407 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.003786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133736 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000679 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.007377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132327 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000472 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.003128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.134264 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000472 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.003718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.139361 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000630 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.003536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132961 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000623 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.003664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.265372 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002249 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.010499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133278 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000677 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.003895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.135659 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004846 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.008576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132976 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000499 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.003579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.143129 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001477 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.007352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.134266 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000457 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.004033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.137911 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001146 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.004960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.131150 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000532 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.004334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.134177 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000937 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.006230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.176839 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000487 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.003375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.130697 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000437 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.003529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.263810 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000793 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.014996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.151887 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002339 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.007954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132647 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000404 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.003318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.130382 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000386 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.002888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.131205 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000467 seconds
+  ERROR: Build asset version error: assets/scenes/scene10. ugui practice/uimover.cs in SourceAssetDB has modification time of '2021-09-08T15:10:32.5692374Z' while content on disk has modification time of '2021-09-08T15:12:31.6412833Z'
+  Import took 0.003209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.138960 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UIMover.cs
+  artifactKey: Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UIMover.cs using Guid(c01c010e71fc8054289b0fa2ba92ed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdd1f37231a11aba0e5ab3f5819f15f') in 0.023331 seconds
+  Import took 0.035266 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004038 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.268 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1432 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1878.
+Total: 2.293300 ms (FindLiveObjects: 0.164100 ms CreateObjectMapping: 0.060600 ms MarkObjects: 2.031000 ms  DeleteObjects: 0.035900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004597 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.067 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1432 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1880.
+Total: 1.837200 ms (FindLiveObjects: 0.177300 ms CreateObjectMapping: 0.062900 ms MarkObjects: 1.573800 ms  DeleteObjects: 0.021400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004659 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.340 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1432 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1882.
+Total: 1.908100 ms (FindLiveObjects: 0.172000 ms CreateObjectMapping: 0.056200 ms MarkObjects: 1.640300 ms  DeleteObjects: 0.037400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003907 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.666 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1432 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1884.
+Total: 2.203100 ms (FindLiveObjects: 0.289400 ms CreateObjectMapping: 0.094300 ms MarkObjects: 1.779200 ms  DeleteObjects: 0.038800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003908 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.713 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1432 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1886.
+Total: 2.767500 ms (FindLiveObjects: 0.308700 ms CreateObjectMapping: 0.235000 ms MarkObjects: 2.197000 ms  DeleteObjects: 0.024900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007232 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.211 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1432 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1888.
+Total: 2.218100 ms (FindLiveObjects: 0.231100 ms CreateObjectMapping: 0.084800 ms MarkObjects: 1.809900 ms  DeleteObjects: 0.049100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010809 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.141 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1432 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1890.
+Total: 2.028500 ms (FindLiveObjects: 0.168200 ms CreateObjectMapping: 0.061900 ms MarkObjects: 1.775400 ms  DeleteObjects: 0.021700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003855 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.325 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1432 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1892.
+Total: 2.062600 ms (FindLiveObjects: 0.164800 ms CreateObjectMapping: 0.058100 ms MarkObjects: 1.791000 ms  DeleteObjects: 0.047700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006111 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.877 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1432 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1894.
+Total: 1.809800 ms (FindLiveObjects: 0.164700 ms CreateObjectMapping: 0.057600 ms MarkObjects: 1.537200 ms  DeleteObjects: 0.048500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004736 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.896 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1432 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1896.
+Total: 2.009800 ms (FindLiveObjects: 0.179400 ms CreateObjectMapping: 0.058600 ms MarkObjects: 1.748700 ms  DeleteObjects: 0.021700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
