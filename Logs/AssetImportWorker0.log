@@ -134,3 +134,131 @@ System memory in use after: 65.5 MB.
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1871.
 Total: 2.164700 ms (FindLiveObjects: 0.181900 ms CreateObjectMapping: 0.057900 ms MarkObjects: 1.897800 ms  DeleteObjects: 0.025100 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 726.003042 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/Scenes/New Scene.unity
+  artifactKey: Guid(67e2104f3e49bad4cbd9beaf691c8a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/Scenes/New Scene.unity using Guid(67e2104f3e49bad4cbd9beaf691c8a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a294ed32fd8d5c67026492dc7b02de73') in 0.041710 seconds
+  Import took 0.051703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.710772 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/Scenes/Content Size Fitter, Scroll View.unity
+  artifactKey: Guid(cae25edd630cea04d802bcab6857c580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/Scenes/Content Size Fitter, Scroll View.unity using Guid(cae25edd630cea04d802bcab6857c580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d7bb97a185949a91ab682e40398b66') in 0.005359 seconds
+  Import took 0.010783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.723533 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/Scenes/2D Scene (AmongUs Main Menu).unity
+  artifactKey: Guid(67e2104f3e49bad4cbd9beaf691c8a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/Scenes/2D Scene (AmongUs Main Menu).unity using Guid(67e2104f3e49bad4cbd9beaf691c8a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d58dfb0ecbb31683df52c6d2272963') in 0.015293 seconds
+  Import took 0.019654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.095909 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/UGUI practice.unity
+  artifactKey: Guid(5b1fd6d704c75934d81f5a88003f4466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/UGUI practice.unity using Guid(5b1fd6d704c75934d81f5a88003f4466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df93914c6faeac7ba3b96cc2fc72023c') in 0.009685 seconds
+  Import took 0.014158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.080722 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/Among us Menu Folder
+  artifactKey: Guid(5ed1fa8d029e2f548bcc7a4c26a28b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/Among us Menu Folder using Guid(5ed1fa8d029e2f548bcc7a4c26a28b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc9129d656bf9c2af628905d954814b') in 0.024536 seconds
+  Import took 0.030979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.863677 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/AmongPrac Menu Folder
+  artifactKey: Guid(5ed1fa8d029e2f548bcc7a4c26a28b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/AmongPrac Menu Folder using Guid(5ed1fa8d029e2f548bcc7a4c26a28b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c07467a39b33a3330379c0ad4c004f') in 0.020968 seconds
+  Import took 0.024859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.509017 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/AmongPrac Menu Folder/Scripts
+  artifactKey: Guid(058221f712c8db24182f22f37651e477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/AmongPrac Menu Folder/Scripts using Guid(058221f712c8db24182f22f37651e477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b1ec0ce9689f4349959379e26bf07b') in 0.014943 seconds
+  Import took 0.018504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000667 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/AmongPrac Menu Folder/Scripts
+  artifactKey: Guid(058221f712c8db24182f22f37651e477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/AmongPrac Menu Folder/Scripts using Guid(058221f712c8db24182f22f37651e477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b1ec0ce9689f4349959379e26bf07b') in 0.017352 seconds
+  Import took 0.023065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 491.138549 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/AmongPrac Menu Folder/Sprites
+  artifactKey: Guid(01bc25f0cb8c0604face89de6b09d4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/AmongPrac Menu Folder/Sprites using Guid(01bc25f0cb8c0604face89de6b09d4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bb54eb4db7ca34df168b6563274e57') in 0.016895 seconds
+  Import took 0.023009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.343866 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/AmongPrac Menu Folder/UI
+  artifactKey: Guid(6d6692b2444571846ac40b18b3a44541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/AmongPrac Menu Folder/UI using Guid(6d6692b2444571846ac40b18b3a44541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e167fc50cd3f220451a56a8438422529') in 0.013822 seconds
+  Import took 0.018381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 214.940191 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/AmongPrac Menu Folder/New Scene.unity
+  artifactKey: Guid(fb8aff862c1bbab4c96ab7b6f9ab10af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/AmongPrac Menu Folder/New Scene.unity using Guid(fb8aff862c1bbab4c96ab7b6f9ab10af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada01dfaaf7688cb54f286c7c82d1bc6') in 0.013138 seconds
+  Import took 0.051575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.545456 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/AmongPrac Menu Folder/2D Scene (AmongUs Main Menu).unity
+  artifactKey: Guid(67e2104f3e49bad4cbd9beaf691c8a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/AmongPrac Menu Folder/2D Scene (AmongUs Main Menu).unity using Guid(67e2104f3e49bad4cbd9beaf691c8a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aca41ae03bd3e301e4d4f1dd787b7d1') in 0.007300 seconds
+  Import took 0.011173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.311142 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/AmongPrac Menu Folder/New Scene 1.unity
+  artifactKey: Guid(f9f8d5fe77fab894fb8b0596d65cb9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/AmongPrac Menu Folder/New Scene 1.unity using Guid(f9f8d5fe77fab894fb8b0596d65cb9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406704b65b12f2bf2e77f35f24f1cdc3') in 0.022982 seconds
+  Import took 0.032204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.218365 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/AmongPrac Menu Folder/New Scene.unity
+  artifactKey: Guid(fb8aff862c1bbab4c96ab7b6f9ab10af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/AmongPrac Menu Folder/New Scene.unity using Guid(fb8aff862c1bbab4c96ab7b6f9ab10af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad27030243993b6457775d8499f640f') in 0.006252 seconds
+  Import took 0.009797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.631851 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/Scenes/Rect Transform Practice.unity
+  artifactKey: Guid(b80b62fc76a5015489d60fb674a11a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/Scenes/Rect Transform Practice.unity using Guid(b80b62fc76a5015489d60fb674a11a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45546757eefd605ae23dd9929bd6c7e4') in 0.017346 seconds
+  Import took 0.022249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Scenes/Scene10. UGUI practice/Scenes/Rect Transform Practice.unity
+  artifactKey: Guid(b80b62fc76a5015489d60fb674a11a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene10. UGUI practice/Scenes/Rect Transform Practice.unity using Guid(b80b62fc76a5015489d60fb674a11a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45546757eefd605ae23dd9929bd6c7e4') in 0.021147 seconds
+  Import took 0.028354 seconds .
+
