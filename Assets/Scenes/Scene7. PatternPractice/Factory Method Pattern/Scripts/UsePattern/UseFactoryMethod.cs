@@ -28,21 +28,17 @@ namespace Scene7FMP
         public void MakeGoblin()
         {
             monsterGenerators[(int)MonsterType.Goblin].CreateMonsters();
-
-            //List<Monster> monsters = monsterGenerators[(int)MonsterType.Goblin].GetMonsters();
-
         }
 
         public void MakeSlime()
         {
             monsterGenerators[(int)MonsterType.Slime].CreateMonsters();
-
-            List<Monster> monsters = monsterGenerators[(int)MonsterType.Slime].GetMonsters();
         }
 
         public void IndexCheck()
         {
-            Debug.Log(monsterGenerators[(int)MonsterType.Goblin].monsters.Count);
+            Debug.Log("소환된 고블린의 수 : " + monsterGenerators[(int)MonsterType.Goblin].monsters.Count);
+            Debug.Log("소환된 슬라임의 수 : " + monsterGenerators[(int)MonsterType.Slime].monsters.Count);
         }
     }
 }

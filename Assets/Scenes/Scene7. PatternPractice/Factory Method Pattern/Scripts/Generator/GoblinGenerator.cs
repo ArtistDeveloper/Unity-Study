@@ -8,8 +8,6 @@ namespace Scene7FMP
     {
         public GameObject GoblinPrefab;
 
-        //monsters = new List<Monster>();
-
         public override void CreateMonsters()
         {
             if (monsters == null)
@@ -18,8 +16,8 @@ namespace Scene7FMP
                 monsters = new List<Monster>();
             }
 
-            Vector3 randomPosition = new Vector3(Random.Range(0f, 10f), 2f, Random.Range(0f, 10f));
-            GameObject hi = Instantiate(GoblinPrefab, randomPosition, Quaternion.identity);
+            Vector3 randomPosition = new Vector3(Random.Range(-8f, 8f), 2f, Random.Range(-8f, 8f));
+            GameObject goblin = Instantiate(GoblinPrefab, randomPosition, Quaternion.identity);
 
             monsters.Add(new Goblin());
         }
