@@ -19,7 +19,7 @@ public class UpdateScale : MonoBehaviour
     //      threshold  = new Vector3(3f, 3f, 3f);
     // }
 
-    
+
     // void Update()
     // {
     //     if (cubeTransform.localScale.x < threshold.x)
@@ -33,12 +33,12 @@ public class UpdateScale : MonoBehaviour
     // deltaTime을 사용하여 5초가 되었을 때 scale이 3이되게 만들기.
     void Start()
     {
-         cubeTransform = GetComponent<Transform>();
-         scaleChange = new Vector3(+0.01f, +0.01f, +0.01f);
-         threshold  = new Vector3(3f, 3f, 3f);
+        cubeTransform = GetComponent<Transform>();
+        scaleChange = new Vector3(+0.01f, +0.01f, +0.01f);
+        threshold = new Vector3(3f, 3f, 3f);
     }
 
-    
+
     void Update()
     {
         time += Time.deltaTime;

@@ -6,7 +6,7 @@ public class CoroutineScale : MonoBehaviour
 {
     private Transform cubeTransform;
     private Vector3 scaleChange;
-    
+
     //1초동안 큐브가 사라지도록 만들기.
     void Start()
     {
@@ -15,15 +15,19 @@ public class CoroutineScale : MonoBehaviour
         StartCoroutine(RunFadeScale());
     }
 
-    
+
     void Update()
     {
-        
+
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <returns></returns>
     IEnumerator RunFadeScale()
     {
-        while(cubeTransform.localScale.x > 0.0f)
+        while (cubeTransform.localScale.x > 0.0f)
         {
             cubeTransform.localScale += scaleChange;
             Debug.Log(cubeTransform.localScale);
