@@ -60,21 +60,31 @@ namespace Scene1
         // /// <summary>
         // /// 코루틴 사용한 버전
         // /// </summary>
-
         private Vector3 goalScaleSize;
         private float lerpRatio;
         private LerpScaleUpdate lerpScaleComponent;
+        private float elpasedTime;
 
         private void Start()
         {
             goalScaleSize = new Vector3(10f, 10f, 10f);
             lerpRatio = 0f;
             lerpScaleComponent = GetComponent<LerpScaleUpdate>();
+
+            StartCoroutine(ChangeScale());
         }
 
-        private void Update()
+        IEnumerator ChangeScale()
         {
-            Debug.Log(Time.deltaTime);
+            while (transform.localScale.x <= 9.9f)
+            {
+                transform.localScale = Vector3.Lerp(transform.localScale, goalScaleSize, Time.deltaTime * 1f);
+                elpasedTime += Time.deltaTime;
+                Debug.Log("작동 중");
+                yield return new WaitForSeconds(0.01f);
+            }
+
+            Debug.Log("총 경과시간 : " + elpasedTime);
         }
     }
 }
