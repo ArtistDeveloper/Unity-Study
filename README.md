@@ -33,3 +33,15 @@ https://artiper.tistory.com/125
 - Factory Method Pattern
 
 ### 8. Terrain 생성하기
+
+
+### 9. Object MoveAndRotation
+
+
+### 10. UGUI practice
+
+
+### 11. Property
+
+
+
