@@ -42,6 +42,6 @@ https://artiper.tistory.com/125
 
 
 ### 11. Property
-- 추가 
+- 추가 예정
 
 
