@@ -1,39 +1,43 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Scene7FMP
 {
     public class UseFactoryMethod : MonoBehaviour
     {
-        // MonsterGenerator[] monsterGenerators = new MonsterGenerator[2];
-        MonsterGenerator[] monsterGenerators = new MonsterGenerator[2];
+        public Button slimeButton;
+        public Button goblinButton;
+        
+        private MonsterGenerator[] monsterGenerators = new MonsterGenerator[2];
+        
 
         private void Start()
         {
             GameObject findGameObject = GameObject.Find("EntireGeneratorManager");
             monsterGenerators[(int)MonsterType.Goblin] = findGameObject.GetComponent<GoblinGenerator>();
             monsterGenerators[(int)MonsterType.Slime] = findGameObject.GetComponent<SlimeGenerator>();
+
+            slimeButton.onClick.AddListener(delegate {MakeMonster(MonsterType.Slime);});
+            goblinButton.onClick.AddListener(delegate {MakeMonster(MonsterType.Goblin);});
         }
 
-        private void Update()
+        // public void MakeGoblin()
+        // {
+        //     monsterGenerators[(int)MonsterType.Goblin].CreateMonsters();
+        // }
+
+        // public void MakeSlime()
+        // {
+        //     monsterGenerators[(int)MonsterType.Slime].CreateMonsters();
+        // }
+
+        public void MakeMonster(MonsterType monsterType)
         {
-            // if (Input.GetKey("q"))
-            // {
-            //     IndexCheck();
-            // }
+            monsterGenerators[(int)monsterType].CreateMonsters();   
         }
 
-
-        public void MakeGoblin()
-        {
-            monsterGenerators[(int)MonsterType.Goblin].CreateMonsters();
-        }
-
-        public void MakeSlime()
-        {
-            monsterGenerators[(int)MonsterType.Slime].CreateMonsters();
-        }
 
         public void IndexCheck()
         {

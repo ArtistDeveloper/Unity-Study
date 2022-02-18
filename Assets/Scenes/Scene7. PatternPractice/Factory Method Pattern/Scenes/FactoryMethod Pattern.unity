@@ -310,7 +310,6 @@ GameObject:
   - component: {fileID: 229142719}
   - component: {fileID: 229142718}
   - component: {fileID: 229142717}
-  - component: {fileID: 229142716}
   m_Layer: 5
   m_Name: Index Chceck
   m_TagString: Untagged
@@ -338,18 +337,6 @@ RectTransform:
   m_AnchoredPosition: {x: -25.6, y: -201.1}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &229142716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 229142714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3979466550120947bfd8f1fd3150227, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &229142717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -394,7 +381,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 229142716}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene7FMP.UseFactoryMethod, Assembly-CSharp
         m_MethodName: IndexCheck
         m_Mode: 1
@@ -811,7 +798,6 @@ GameObject:
   - component: {fileID: 1102862049}
   - component: {fileID: 1102862048}
   - component: {fileID: 1102862047}
-  - component: {fileID: 1102862050}
   m_Layer: 5
   m_Name: GoblinCreateButton
   m_TagString: Untagged
@@ -882,19 +868,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1102862048}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1102862050}
-        m_TargetAssemblyTypeName: Scene7FMP.UseFactoryMethod, Assembly-CSharp
-        m_MethodName: MakeGoblin
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1102862048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -933,18 +907,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102862045}
   m_CullTransparentMesh: 1
---- !u!114 &1102862050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1102862045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3979466550120947bfd8f1fd3150227, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1124727692
 GameObject:
   m_ObjectHideFlags: 0
@@ -1106,6 +1068,7 @@ GameObject:
   - component: {fileID: 1720601372}
   - component: {fileID: 1720601371}
   - component: {fileID: 1720601374}
+  - component: {fileID: 1720601375}
   m_Layer: 0
   m_Name: EntireGeneratorManager
   m_TagString: Untagged
@@ -1168,6 +1131,20 @@ MonoBehaviour:
   monsterGenerator:
   - {fileID: 1720601372}
   - {fileID: 1720601371}
+--- !u!114 &1720601375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720601370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3979466550120947bfd8f1fd3150227, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slimeButton: {fileID: 1850024060}
+  goblinButton: {fileID: 1102862047}
 --- !u!1 &1850024058
 GameObject:
   m_ObjectHideFlags: 0
@@ -1180,7 +1157,6 @@ GameObject:
   - component: {fileID: 1850024062}
   - component: {fileID: 1850024061}
   - component: {fileID: 1850024060}
-  - component: {fileID: 1850024063}
   m_Layer: 5
   m_Name: SliimeCreateButton
   m_TagString: Untagged
@@ -1252,13 +1228,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1850024063}
-        m_TargetAssemblyTypeName: Scene7FMP.UseFactoryMethod, Assembly-CSharp
-        m_MethodName: MakeSlime
+      - m_Target: {fileID: 1720601370}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1302,15 +1278,3 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1850024058}
   m_CullTransparentMesh: 1
---- !u!114 &1850024063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1850024058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3979466550120947bfd8f1fd3150227, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
